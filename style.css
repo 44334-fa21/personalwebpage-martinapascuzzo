@@ -1,1 +1,78 @@
 /*Personal Web Page Style Sheet */
+* { box-sizing: border-box; }
+body {margin: 0;
+	 background-color: #f8f8f8;
+}
+#container {color: #000000;
+			font-family: Verdana, Arial, sans-serif;
+            font-size: 14px;
+            margin-left: auto;
+            padding-left: 20%;
+            padding-right: 20%;
+}
+
+header {  background-color: #70cabe;
+          background-image: url(Images/header.jpg);
+          text-align: center;
+          background-position: center;
+          background-repeat: no-repeat;
+		  background-size: cover;
+          height: 120px;
+
+}
+
+h1 { text-align: left;
+    font-size: 300%;
+    padding: 5% 0;
+    line-height: 250%;
+ 	margin-bottom: 0;
+	font-size: 3em;
+	padding: .2em;
+    text-shadow: 3px 3px 3px #bcedf4;	
+}
+
+h2 {padding: 5px;
+    text-decoration-line: underline;
+    color: #70cabe;
+    clear: left;
+
+}
+
+nav { float: right;
+      padding-left: 10px;
+      font-size: 20px;
+}
+
+nav ul {list-style-type: none;
+        display: block;
+        padding-right: 20px;
+}
+
+nav li { padding: 5px;
+
+}
+
+nav a { text-decoration: none;}
+nav a:link { color: #70cabe; }
+nav a:visited { color: #48025a; }
+nav a:hover { color: #70cabe; border: 3px solid rgba(158, 158, 158, 0.342);; }
+
+.mug {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.mug2 {
+    position: relative;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    clear: right;
+}
+footer{ font-size: .70em;
+        font-style: italic;
+        text-align: center;
+        padding: 1em;
+}
